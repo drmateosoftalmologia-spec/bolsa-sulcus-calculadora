@@ -11,7 +11,7 @@ Herramienta intraoperatoria de apoyo para cirugía de cataratas: calcula la pote
 
 ## Fundamento científico
 
-El desarrollo completo del algoritmo, su derivación matemática y las limitaciones están documentados en [`docs/fundamento-cientifico.docx`](docs/fundamento-cientifico.docx).
+El desarrollo completo del algoritmo, su derivación matemática y las limitaciones están documentados en [`fundamento-cientifico.docx`](fundamento-cientifico.docx).
 
 Referencia principal:
 Suto C, Hori S, Fukuyama E, Akura J. Adjusting intraocular lens power for sulcus fixation. *J Cataract Refract Surg.* 2003;29(10):1913-7.
