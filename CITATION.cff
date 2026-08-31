@@ -1,0 +1,18 @@
+cff-version: 1.2.0
+message: "Si usás esta herramienta en tu práctica o investigación, por favor citala así:"
+title: "Bolsa ⇄ Sulcus: calculadora de ajuste de potencia de LIO intraocular"
+type: software
+authors:
+  - family-names: "Mateos"
+    given-names: "Gerardo"
+    affiliation: "Córdoba, Argentina"
+date-released: 2026-08-30
+version: "1.0.0"
+license: "CC-BY-NC-SA-4.0"
+repository-code: "https://github.com/<tu-usuario>/<nombre-del-repo>"
+keywords:
+  - oftalmología
+  - cirugía de cataratas
+  - lente intraocular
+  - sulcus
+  - constante A
