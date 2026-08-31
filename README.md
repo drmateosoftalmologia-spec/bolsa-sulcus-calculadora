@@ -22,7 +22,7 @@ Desarrollada por el **Dr. Gerardo Mateos** (MP 33952), Córdoba, Argentina.
 
 ### Cómo citar
 
-> Mateos G. Bolsa ⇄ Sulcus: calculadora de ajuste de potencia de LIO intraocular [Internet]. 2026. Disponible en: `<URL del repositorio>`. DOI: `<se completa cuando Zenodo lo genere>`
+> Mateos G. Bolsa ⇄ Sulcus: calculadora de ajuste de potencia de LIO intraocular [Internet]. 2026. Disponible en: https://doi.org/10.5281/zenodo.22213101
 
 ## Licencia
 
