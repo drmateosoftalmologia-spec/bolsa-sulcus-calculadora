@@ -4,6 +4,13 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1">
 <title>Bolsa ⇄ Sulcus — Calculadora de potencia de LIO</title>
+<link rel="manifest" href="manifest.json">
+<meta name="theme-color" content="#073F44">
+<link rel="icon" href="icon-192.png">
+<link rel="apple-touch-icon" href="icon-192.png">
+<meta name="apple-mobile-web-app-capable" content="yes">
+<meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+<meta name="apple-mobile-web-app-title" content="Bolsa⇄Sulcus">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=IBM+Plex+Sans:wght@400;500;600;700&family=IBM+Plex+Mono:wght@500;600;700&display=swap" rel="stylesheet">
@@ -260,7 +267,7 @@
   <footer>
     Cálculo basado en <b>Suto C, Hori S, Fukuyama E, Akura J.</b> Adjusting intraocular lens power for sulcus fixation. <i>J Cataract Refract Surg.</i> 2003;29(10):1913-7, y la tabla interpolada de referencia (ACD bolsa 5.20&nbsp;mm / sulcus 4.70&nbsp;mm). Válido para ojos de longitud axial normal y diseños de cámara posterior convencionales — ver documento de respaldo científico para limitaciones. Herramienta de apoyo intraoperatorio; la decisión final queda a criterio del cirujano.<br><br>
     © 2026 <b>Dr. Gerardo Mateos</b> (MP 33952), Córdoba, Argentina. Todos los derechos reservados.<br>
-    Cómo citar: Mateos G. Bolsa ⇄ Sulcus: calculadora de ajuste de potencia de LIO. 2026. DOI: 10.5281/zenodo.22213101
+    Cómo citar: Mateos G. Bolsa ⇄ Sulcus: calculadora de ajuste de potencia de LIO. 2026.
   </footer>
 
 </div>
@@ -361,6 +368,12 @@ document.querySelectorAll('.stepper button').forEach(btn=>{
 [$p1,$a1,$a2].forEach(el=>el.addEventListener('input', recalc));
 
 recalc();
+
+if ('serviceWorker' in navigator) {
+  window.addEventListener('load', () => {
+    navigator.serviceWorker.register('service-worker.js').catch(() => {});
+  });
+}
 </script>
 </body>
 </html>
